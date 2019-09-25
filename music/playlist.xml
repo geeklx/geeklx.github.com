@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+    <trackList>
+        <track>
+          <location>music/mp3/10.mp3</location>
+          <title>明天过后 - liangxiao</title>
+        </track>
+        
+        <track>
+          <location>music/mp3/4.mp3</location>
+          <title>好好(想把你写成一首歌) - liangxiao</title>
+        </track>
+                
+        <track>
+          <location>music/mp3/6.mp3</location>
+          <title>达尔文 - liangxiao</title>
+        </track>
+        
+        <track>
+          <location>music/mp3/1.mp3</location>
+          <title>爱情转移 - liangxiao</title>
+        </track>
+        
+        <track>
+          <location>music/mp3/5.mp3</location>
+          <title>他不懂 - liangxiao</title>
+        </track>
+        
+        <track>
+          <location>music/mp3/2.mp3</location>
+          <title>往未来飞的客机 - 郭静</title>
+        </track>
+        
+        <track>
+          <location>music/mp3/8.mp3</location>
+          <title>魔力 - SHE</title>
+        </track>
+        
+        <track>
+          <location>music/mp3/9.mp3</location>
+          <title>三吋日光 - 梁静茹</title>
+        </track>
+        
+        <track>
+          <location>music/mp3/3.mp3</location>
+          <title>遇见 - 孙燕姿</title>
+        </track>
+
+    </trackList>
+</playlist>
