@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.fosung.lighthouse.zhsq1",
+    "sha256_cert_fingerprints":
+    ["05:6E:51:D5:BD:F2:5B:47:63:C9:8A:1A:A1:2E:97:C6:A9:19:7D:2B:D0:B9:B5:14:7E:AF:A8:C9:7F:B8:12:EA"]
+  }
+}]
