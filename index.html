@@ -1,221 +1,335 @@
-<!DOCTYPE HTML>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-<title>既许你以偏爱，愿尽余生慷慨</title>
-<link type="image/x-icon" rel="shortcut icon" href="images/kun0.png">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<!-- 链接css，保持html的样式不变 -->
-<link href="css/default.css" type="text/css" rel="stylesheet">
-<!-- 链接js，保持html的效果显示 -->
-<!--<link type="text/css" href="css/lrtk.css" rel="stylesheet" />-->
-<link type="text/css" href="css/snowstyle.css" rel="stylesheet" >
-<link type="text/css" href="css/prettyPhoto.css" rel="stylesheet" />
-<link type="text/css" href="music/jsmusic/styles.css" rel="stylesheet" />    
-
-<script type="text/javascript" src="js/jquery.js"></script>
-<!-- <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script> -->
-<!--<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>-->
-<!--<script type="text/javascript" src="js/lrtk.js"></script>-->
-<script type="text/javascript" src="http://d.lanrentuku.com/down/js/tupian-1007/js/jquery.prettyPhoto.js"></script>
-<script type="text/javascript" src="http://d.lanrentuku.com/down/js/tupian-1007/js/lrtk.js"></script>
-<script type="text/javascript" src="js/garden.js"></script>
-<script type="text/javascript" src="js/functions.js"></script>
-<script type="text/javascript" src="js/jquery.let_it_snow.js"></script>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>《视频音频提取器》隐私政策与服务协议</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        accentCyan: '#4ade80', /* Matching system accents */
+                        accentCoral: '#ff6b6b'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap');
+        body {
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
-<body>
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 transition-colors duration-300 min-h-screen">
 
-        
-    <canvas id="snow_canvas_flare" width="100%" height="100%" ></canvas> 
-        <canvas id="snow_canvas_snow" width="100%" height="100%" ></canvas>
-        <canvas id="snow_canvas_flake" width="100%" height="100%" ></canvas>
-<div id="mainDiv">
-    <div id="content">
-        <div id="code">
-            <span class="comments">/**</span><br />
-            <span class="space" /><span class="comments">* 遇到你我已经花光了所有的运气
-            </span>
-            <br />
-            <span class="space" /><span class="comments">* 只要是喜剧收尾，我一定陪你往后余生.<img src="swf/kun.gif" /></span><br />
-            <span class="space" /><span class="comments">*/</span><br />
-            Boy i = <span class="keyword">new</span> Boy(<span class="string">"liangxiao"</span>);<br />
-            Girl u = <span class="keyword">new</span> Girl(<span class="string">"lvkun"</span>);<br />
-            <span class="comments">// 2019.09.15，我们正式认识</span>
-            <br />
-            i.love(u);<br />
-            <span class="comments">// 我也打开了尘封多年的内心，勇敢的去抓住青春的尾巴</span><br />
-            u.accepted();<br />
-            <span class="comments">// 虽然初次见面 但我真的不是话痨 我只是对的时间遇见了最完美的你.</span><br />
-            i.miss(u);<br />
-            <span class="comments">// 感情没有我们慢慢了解沟通培养.我始终相信没有最合适的婚姻，</span><br />
-            <span class="comments">// 却有彼此愿意磨合，一路两个人的爱情.</span><br />
-            <span class="comments">// 这么多年遇到你不容易 我也不想错过你.</span><br />    
-            i.takeCareOf(u);<br />
-            <span class="comments">// 陪你去看宫崎骏的童话</span><br />
-            <span class="comments">// 给你每天做饭.</span><br />
-            <span class="comments">// 成为你的阳光,陪你幸福到老.</span><br />
-<!--             <span class="comments">// 一见钟情 容易走眼 耳朵听来的未必是真实的情况.</span><br /> -->
-            <span class="comments">// 喜欢是放肆,爱是克制.</span><br />
-<!--             <span class="comments">// 我不敢轻易的对你做出承诺.</span><br /> -->
-<!--             <span class="comments">// 因为感情的事情不能勉强 并且是双方共同的事情.</span><br /> -->
-<!--             <span class="comments">// 我想在合适的时间真心对你说出一生的承诺.</span><br /> -->
-            <span class="keyword">boolean</span> isHesitate = <span class="keyword">true</span>;<br />
-            <span class="keyword">while</span> (isHesitate) {<br />
-            <span class="placeholder" />i.waitFor(u);<br />
-<!--             <span class="placeholder" /><span class="comments">// 如果你觉得只有我一个人对你好而被动的接受我，那说明你没有出去看看外面的世界，</span><br /> -->
-<!--             <span class="comments">// 如果你转一圈回来后，发现站在老地方的还是我，那才能谈及婚姻，爱一个人需要时间。</span>.<br /> -->
-            <span class="comments">// 我也曾把光阴浪费甚至莽撞到视死如归，在北京失眠到离开，却因为爱上了你，才开始渴望身体健康长命百岁....</span>.<br />
-            <span class="placeholder" />isHesitate = u.thinkOver();<br />
-            }<br />
-            <span class="comments">// 云淡风轻,平凡的幸福最温暖，往后余生陪你一起走下去(✿◡‿◡)</span><br />
-            
-            i.marry(u);<br />
-            i.liveHappilyWith(u);<br />
-        </div>
-        <div id="loveHeart">
-            <canvas id="garden"></canvas>
-            <div id="words">
-                <div id="messages">
-                    Love you
-                    <div id="elapseClock">
-                    </div>
+    <!-- Header Section -->
+    <header class="border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-slate-900/80 backdrop-blur sticky top-0 z-50">
+        <div class="max-w-4xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <div class="flex items-center gap-3">
+                <!-- SoundWave App Logo -->
+                <div class="w-10 h-10 rounded-full bg-emerald-500/10 dark:bg-emerald-500/20 flex items-center justify-center border border-emerald-500/20">
+                    <svg class="w-6 h-6 text-emerald-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 18.75a6 6 0 0 0 6-6v-1.5m-6 7.5a6 6 0 0 1-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 0 1-3-3V4.5a3 3 0 1 1 6 0v8.25a3 3 0 0 1-3 3Z" />
+                    </svg>
                 </div>
-                <div id="loveu">
-                    days<br />
-                    <div class="signature">
-                        - 梁先森</div>
+                <div>
+                    <h1 class="text-lg font-bold tracking-tight">视频音频提取器</h1>
+                    <p class="text-xs text-slate-500 dark:text-slate-400">本地化离线多功能转换工具</p>
                 </div>
             </div>
-        </div>
-        <div id="apDiv3">
-            
-            <!--old-->
-            <!-- <embed src="music/1.mp3" width="127" height="25" hidden="true" autostart="true" loop="false"></embed> -->
-        </div>
-    </div>
 
-    <div id="copyright">
-            <div id="container_side">  
-              <div id="left_side">
-                        <object type="application/x-shockwave-flash" data="music/jsmusic/dewplayer-playlist.swf" width="240" height="200" id="dewplayer" name="dewplayer">
-                        <param name="wmode" value="transparent" />
-                        <param name="movie" value="music/jsmusic/dewplayer-playlist.swf" />
-                        <param name="flashvars" value="showtime=true&autoreplay=true&autostart=1&showtime=1&randomplay=1&xml=music/playlist.xml" />
-                        </object>
-              </div>  
-              <div id="content_side"> 
-                    <div class="infopic">
-                        <div class="picbox">
-                            <ul class="gallery piclist" id ="galleryId">
-                                <!--<li><a href="images/kun/kun.jpg" rel="prettyPhoto[]">
-                                    <img src="images/kun/kun.jpg" /></a></li>-->
-                                        
-                            </ul>
+            <!-- Tab Toggles & Theme Switcher -->
+            <div class="flex items-center gap-2">
+                <nav class="flex bg-slate-100 dark:bg-slate-800 p-1 rounded-lg text-sm font-medium">
+                    <button id="tab-privacy-btn" onclick="switchTab('privacy')" class="px-4 py-1.5 rounded-md bg-white dark:bg-slate-700 text-slate-900 dark:text-white shadow-sm transition-all duration-200">
+                        隐私政策
+                    </button>
+                    <button id="tab-terms-btn" onclick="switchTab('terms')" class="px-4 py-1.5 rounded-md text-slate-500 dark:text-slate-400 hover:text-slate-800 dark:hover:text-slate-200 transition-all duration-200">
+                        用户协议
+                    </button>
+                </nav>
+                
+                <!-- Theme toggle -->
+                <button onclick="toggleDarkMode()" class="p-2 rounded-lg bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-500 dark:text-slate-400 transition" aria-label="切换深色模式">
+                    <svg id="theme-icon-light" class="w-5 h-5 hidden" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+                    </svg>
+                    <svg id="theme-icon-dark" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="max-w-4xl mx-auto px-4 py-8 sm:py-12">
+        
+        <!-- Privacy Policy Content Card -->
+        <article id="privacy-content" class="bg-white dark:bg-slate-900 shadow-sm border border-slate-200 dark:border-slate-800 rounded-2xl p-6 sm:p-10 transition duration-300">
+            <div class="border-b border-slate-100 dark:border-slate-800 pb-6 mb-8 text-center sm:text-left">
+                <h2 class="text-3xl font-extrabold text-slate-900 dark:text-white">隐私政策</h2>
+                <div class="mt-3 flex flex-wrap gap-x-4 gap-y-1 justify-center sm:justify-start text-xs text-slate-500 dark:text-slate-400 font-medium">
+                    <span>更新日期：2026年06月01日</span>
+                    <span>•</span>
+                    <span>生效日期：2026年06月01日</span>
+                </div>
+            </div>
+
+            <div class="space-y-6 text-slate-600 dark:text-slate-300 leading-relaxed text-sm sm:text-base">
+                <p class="font-medium text-slate-800 dark:text-slate-200">
+                    本应用（以下简称“我们”或“本工具”）高度重视您的隐私和个人信息保护。在使用我们的服务之前，请务必仔细阅读本《隐私政策》，全面了解我们如何处置和保护您的本地媒体数据。
+                </p>
+
+                <hr class="border-slate-100 dark:border-slate-800">
+
+                <section class="space-y-3">
+                    <h3 class="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
+                        <span class="w-1.5 h-6 rounded bg-emerald-500 inline-block"></span>
+                        一、 我们如何收集和使用信息
+                    </h3>
+                    <div class="pl-4 border-l-2 border-slate-100 dark:border-slate-800 space-y-3">
+                        <div class="p-4 bg-emerald-500/5 dark:bg-emerald-500/10 border border-emerald-500/10 rounded-xl">
+                            <h4 class="font-bold text-slate-900 dark:text-white mb-1">1. 离线本地处理（敏感数据安全）</h4>
+                            <p class="text-sm">本工具是一款完全本地化操作的视频音频提取工具。所有的提取、转换和导出处理均在您的手机设备上本地密闭完成。<b>我们不会，也没有任何服务器可以上传、转发或存储您的原始视频文件或提取出的音频文件。</b>您的文件绝对安全。</p>
                         </div>
-                        <div class="pic_prev">
+                        <div>
+                            <h4 class="font-bold text-slate-900 dark:text-stone-200 mb-1">2. 存储与媒体访问权限</h4>
+                            <p class="text-sm">为了向您提供核心功能（即读取您自主选择的视频并将其中的音轨提取保存至本地），在您点击导入或导出音频时，我们需要向系统申请<b>读取/写入媒体资料或外部存储的权限</b>（通常通过系统安全选择器。在 Android 13+ 设备中，我们严格遵循最少权限原则）。我们仅在您主动授权并触发功能时读取对应的单体文件，且音频文件仅保存在您的本地特定目录中。</p>
                         </div>
-                        <div class="pic_next">
+                        <div>
+                            <h4 class="font-bold text-slate-900 dark:text-stone-200 mb-1">3. 设备与账号信息</h4>
+                            <p class="text-sm">我们不收集您任何的个人设备唯一标识符（如 IMEI、Android ID、OAID 等）、IP 地址、地理位置，也不提供注册和登录功能，最大程度保护您的数字生态隐私安全。</p>
                         </div>
                     </div>
-              </div>  
-              <div id="right_side">
-                  <div style="margin-bottom:20px"><img src="images/kun0.png"  height="200" width="154"/><br /></div>
-              </div>  
-            </div>  
-        <script type="text/javascript">
-            $(document).ready(function () {
-                $("area[rel^='prettyPhoto']").prettyPhoto();
-                $(".gallery:first a[rel^='prettyPhoto']").prettyPhoto({ animation_speed: 'fast', slideshow: 10000, hideflash: true });
-            })
-                
-            var gallery = document.getElementById("galleryId");
-            //var gallery = getElementsByClassName("gallery piclist");
-            var htmlContent = "";
-            for (var i=7;i>0;i--) {
-                htmlContent += "<li ><a href=\"images/kun/kun"+i+".png\" rel=\"prettyPhoto[]\"><img src=\"images/kun/kun"+i+".png\"></a></li>";
+                </section>
+
+                <section class="space-y-3">
+                    <h3 class="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
+                        <span class="w-1.5 h-6 rounded bg-emerald-500 inline-block"></span>
+                        二、 信息的共享与公开披露
+                    </h3>
+                    <p class="pl-4">
+                        因本软件采用纯本地业务架构，不具备任何联网上传和云端分发通道：<br>
+                        1. <b>共享行为：</b>我们不存在将您的任何个人数据、媒体文件或设备信息共享给任何第三方的行为。<br>
+                        2. <b>披露行为：</b>我们绝不会公开披露您的任何数据。<br>
+                        3. <b>数据控制：</b>您的媒体数据处于您的绝对控制之下。通常当您主动卸载应用时，除您保存在系统下载目录（Downloads）下的音频外，保存在本应用私有存储中的文件将被同步清除。
+                    </p>
+                </section>
+
+                <section class="space-y-3">
+                    <h3 class="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
+                        <span class="w-1.5 h-6 rounded bg-emerald-500 inline-block"></span>
+                        三、 未成年人隐私保护
+                    </h3>
+                    <p class="pl-4 text-sm sm:text-base">
+                        本应用不主动面向未满13周岁的儿童推广。如果儿童在其监护人的合理监管下使用本应用，其对本地媒体的提取和导出行为也将完全在设备上本地化进行，本工具绝不对其进行任何网络信息收集。
+                    </p>
+                </section>
+
+                <section class="space-y-3">
+                    <h3 class="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
+                        <span class="w-1.5 h-6 rounded bg-emerald-500 inline-block"></span>
+                        四、 您的个人隐私权利
+                    </h3>
+                    <p class="pl-4 text-sm sm:text-base">
+                        您可以随时在手机系统设置（权限管理）中，撤销、调整对本应用读取/写入存储媒体的权限许可。撤销后，由于本软件无法自主感知和获取您的本地视频，您可能无法继续体验提取服务，但这不会对其他不依赖权限的功能产生任何负面影响。
+                    </p>
+                </section>
+
+                <section class="space-y-3">
+                    <h3 class="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
+                        <span class="w-1.5 h-6 rounded bg-emerald-500 inline-block"></span>
+                        五、 政策更新
+                    </h3>
+                    <p class="pl-4 text-sm sm:text-base">
+                        若因产品功能扩充或运营监管合规需要，我们对隐私政策进行重大变更时，我们将在应用内的隐私政策公示版块和本页面中发布更新。建议您定期查阅。
+                    </p>
+                </section>
+
+                <section class="space-y-3">
+                    <h3 class="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
+                        <span class="w-1.5 h-6 rounded bg-emerald-500 inline-block"></span>
+                        六、 联系我们
+                    </h3>
+                    <div class="pl-4 p-4 bg-slate-50 dark:bg-slate-800/50 border border-slate-100 dark:border-slate-850 rounded-xl space-y-2">
+                        <p class="text-sm">如果您对本《隐私政策》、您的个人利益或应用程序的本地隐私保障措施有任何疑问、建议或合规审查需求，请通过以下电子邮箱直接与我们取得联系。我们承诺将在收到咨询后的合理期限内及时给您回复：</p>
+                        <div class="flex items-center gap-2 font-mono text-emerald-500 font-bold bg-white dark:bg-slate-900 px-3 py-1.5 rounded-lg w-fit text-xs sm:text-sm">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                            </svg>
+                            liangxiaogeek6@gmail.com
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </article>
+
+        <!-- Terms of Service Content Card (Hidden by default) -->
+        <article id="terms-content" class="bg-white dark:bg-slate-900 shadow-sm border border-slate-200 dark:border-slate-800 rounded-2xl p-6 sm:p-10 hidden transition duration-300">
+            <div class="border-b border-slate-100 dark:border-slate-800 pb-6 mb-8 text-center sm:text-left">
+                <h2 class="text-3xl font-extrabold text-slate-900 dark:text-white">用户服务协议</h2>
+                <div class="mt-3 flex flex-wrap gap-x-4 gap-y-1 justify-center sm:justify-start text-xs text-slate-500 dark:text-slate-400 font-medium">
+                    <span>更新日期：2026年06月01日</span>
+                    <span>•</span>
+                    <span>生效日期：2026年06月01日</span>
+                </div>
+            </div>
+
+            <div class="space-y-6 text-slate-600 dark:text-slate-300 leading-relaxed text-sm sm:text-base">
+                <p class="font-medium text-slate-800 dark:text-slate-200">
+                    欢迎您使用“视频音频提取器”（以下简称“本工具”或“本软件”）。本服务协议是您（以下或称“用户”）与本软件开发者之间关于使用本软件服务达成的法律协议。请在使用前认真阅读并理解以下条款：
+                </p>
+
+                <hr class="border-slate-100 dark:border-slate-800">
+
+                <section class="space-y-3">
+                    <h3 class="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
+                        <span class="w-1.5 h-6 rounded bg-emerald-500 inline-block"></span>
+                        一、 服务内容与性质
+                    </h3>
+                    <p class="pl-4">
+                        1. 本工具为您提供高表现力的音轨提取核心服务，支持将本地视频中的音频格式（如 MP3、M4A 等）进行无损或有损提取、分离，以及本地播放、历史记录、分享和保存到下载(Downloads)目录。<br>
+                        2. 本软件是单机版离线工具，其运行过程不接入、不依赖云端后台服务器，不记录、不保存任何云端操作日志。
+                    </p>
+                </section>
+
+                <section class="space-y-3">
+                    <h3 class="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
+                        <span class="w-1.5 h-6 rounded bg-emerald-500 inline-block"></span>
+                        二、 用户行为规范
+                    </h3>
+                    <p class="pl-4">
+                        1. 您在导入视频和提取音轨时，<b>应确保您拥有该视频的合法版权、相关知识产权，或已获得权利人合法的合理使用授权。</b>您应对由于导入非法或版权争议媒体造成的侵权及著作权纠纷独立承担全部法律责任，理智合法使用提取结果。<br>
+                        2. 您承诺不利用本软件进行任何违反中华人民共和国以及您所在地现行法律法规、违背公序良俗的有害行为。
+                    </p>
+                </section>
+
+                <section class="space-y-3">
+                    <h3 class="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
+                        <span class="w-1.5 h-6 rounded bg-emerald-500 inline-block"></span>
+                        三、 知识产权声明
+                    </h3>
+                    <p class="pl-4">
+                        1. 本软件的所有界面视觉交互设计、特色图标、文字配文描述、底层高能解析提取逻辑源码、算法设计架构的知识产权全部归属于本软件开发者所有。
+                    </p>
+                </section>
+
+                <section class="space-y-3">
+                    <h3 class="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
+                        <span class="w-1.5 h-6 rounded bg-emerald-500 inline-block"></span>
+                        Four、 免责声明
+                    </h3>
+                    <p class="pl-4 text-sm sm:text-base">
+                        1. 本软件按“现状”及“现有可用性”提供。开发者团队不保证软件能够绝对不受中断、完全无任何意外差错运行，也不对任何特定用途的完美契合、稳定状态提供担保。<br>
+                        2. 开发者不对因用户自身误删文件、手机系统物理存储介质损坏、重置系统、闪退奔溃或系统异常所导致的音频数据丢失、数据被连带清除承担法律赔偿责任。建议用户及时将音轨保存到下载(Downloads)并做好备份。
+                    </p>
+                </section>
+
+                <section class="space-y-3">
+                    <h3 class="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
+                        <span class="w-1.5 h-6 rounded bg-emerald-500 inline-block"></span>
+                        五、 协议的修改与终止
+                    </h3>
+                    <p class="pl-4 text-sm sm:text-base">
+                        1. 开发者有权在需要时对本协议的部分内容进行修改和补充更新。一旦协议发生修订更新，我们将直接在应用中相应公示版块发布。用户如继续使用本工具，即代表您完全知悉并无条件接受更新后的协议内容。
+                    </p>
+                </section>
+
+                <section class="space-y-3">
+                    <h3 class="text-lg font-bold text-slate-900 dark:text-white flex items-center gap-2">
+                        <span class="w-1.5 h-6 rounded bg-emerald-500 inline-block"></span>
+                        六、 适用法律与争议解决
+                    </h3>
+                    <p class="pl-4 text-sm sm:text-base">
+                        1. 本协议的订立、效力、履行、解释及合同争议纠纷的解决等一并适用中华人民共和国法律（不包含港澳台地区）。<br>
+                        2. 若用户与开发者发生纠纷，首先应建立在友好、真诚的基础上进行友好协商沟通；如协商无法达成一致意见的，任何一方均可将争议提交至开发者所在地具有管辖权的人民法院诉讼解决。
+                    </p>
+                </section>
+            </div>
+        </article>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-200 dark:border-slate-800 py-8 bg-slate-100/50 dark:bg-slate-900/50 text-center text-xs text-slate-400 dark:text-slate-500 font-medium space-y-1">
+        <p>© 2026 视频音频提取器. Copyleft @ liangxiaogeek6.</p>
+        <p>提供极速、纯净、安全的本地免流量多媒体分离音轨技术保障。</p>
+    </footer>
+
+    <!-- Interactive script for Dark Mode & Tab Management -->
+    <script>
+        // Check local storage or system configuration for light/dark theme preference
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+            updateThemeIcons(true);
+        } else {
+            document.documentElement.classList.remove('dark');
+            updateThemeIcons(false);
+        }
+
+        // Dark mood toggler function
+        function toggleDarkMode() {
+            const isDark = document.documentElement.classList.toggle('dark');
+            localStorage.theme = isDark ? 'dark' : 'light';
+            updateThemeIcons(isDark);
+        }
+
+        function updateThemeIcons(isDark) {
+            const lightIcon = document.getElementById('theme-icon-light');
+            const darkIcon = document.getElementById('theme-icon-dark');
+            if (isDark) {
+                lightIcon.classList.remove('hidden');
+                darkIcon.classList.add('hidden');
+            } else {
+                lightIcon.classList.add('hidden');
+                darkIcon.classList.remove('hidden');
             }
-            gallery.innerHTML = htmlContent;
-            //alert(gallery.innerHTML);
+        }
 
+        // Tab Switching logic
+        function switchTab(tab) {
+            const privacyBtn = document.getElementById('tab-privacy-btn');
+            const termsBtn = document.getElementById('tab-terms-btn');
+            const privacyContent = document.getElementById('privacy-content');
+            const termsContent = document.getElementById('terms-content');
 
-                
-        </script>
-        Copyright © <a href="http://liangxiao.blog.51cto.com/" target="_blank">liangxiao</a>
-        2009-2019
-    </div>
-</div>
+            const activeClass = ['bg-white', 'dark:bg-slate-700', 'text-slate-900', 'dark:text-white', 'shadow-sm'];
+            const inactiveClass = ['text-slate-500', 'dark:text-slate-400', 'hover:text-slate-800', 'dark:hover:text-slate-200'];
 
-<script type="text/javascript">
-    var offsetX = $("#loveHeart").width() / 2;
-    var offsetY = $("#loveHeart").height() / 2 - 55;
-    var together = new Date();
-    together.setFullYear(2019, 8, 14);
-    together.setHours(24);
-    together.setMinutes(0);
-    together.setSeconds(0);
-    together.setMilliseconds(0);
+            if (tab === 'privacy') {
+                // Active Button Class update
+                privacyBtn.classList.add(...activeClass);
+                privacyBtn.classList.remove(...inactiveClass);
+                // Inactive Button Class update
+                termsBtn.classList.remove(...activeClass);
+                termsBtn.classList.add(...inactiveClass);
 
-    if (!document.createElement('canvas').getContext) {
-        var msg = document.createElement("div");
-        msg.id = "errorMsg";
-        msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+";
-        document.body.appendChild(msg);
-        $("#code").css("display", "none")
-        $("#copyright").css("position", "absolute");
-        $("#copyright").css("bottom", "10px");
-        document.execCommand("stop");
-    } else {
-        setTimeout(function () {
-            startHeartAnimation();
-        }, 5000);
+                // Toggle elements visible
+                privacyContent.classList.remove('hidden');
+                termsContent.classList.add('hidden');
+                document.title = "《视频音频提取器》- 隐私政策";
+            } else if (tab === 'terms') {
+                // Active Button Class update
+                termsBtn.classList.add(...activeClass);
+                termsBtn.classList.remove(...inactiveClass);
+                // Inactive Button Class update
+                privacyBtn.classList.remove(...activeClass);
+                privacyBtn.classList.add(...inactiveClass);
 
-        timeElapse(together);
-        setInterval(function () {
-            timeElapse(together);
-        }, 500);
-
-        adjustCodePosition();
-        $("#code").typewriter();
-    }
-
-    $(document).ready(function () {
-        $("area[rel^='prettyPhoto']").prettyPhoto();
-        $(".gallery:first a[rel^='prettyPhoto']").prettyPhoto({ animation_speed: 'fast', slideshow: 10000, hideflash: true });
-    })
-</script>
-
-    
-<!--雪花bufen-->
-<script type="text/javascript">
-$(document).ready(function(){
-
-    $("#snow_canvas_flare").let_it_snow({
-        windPower: 0,
-        speed: 0,
-        color: "#392F52",
-        size:120,
-        opacity: 0.00000001,
-        count: 40,
-        interaction: false
-    }); 
-
-    $("#snow_canvas_snow").let_it_snow({
-        windPower: 3,
-        speed: 1,
-        count: 250,
-        size: 0
-    });
-
-    $("#snow_canvas_flake").let_it_snow({
-        windPower: -3,
-        speed: 1,
-        count: 20,
-        size: 10,
-        image: "images/white-snowflake.png"
-    });
-
-});
-</script>
-
+                // Toggle elements visible
+                termsContent.classList.remove('hidden');
+                privacyContent.classList.add('hidden');
+                document.title = "《视频音频提取器》- 用户服务协议";
+            }
+        }
+    </script>
 </body>
 </html>
